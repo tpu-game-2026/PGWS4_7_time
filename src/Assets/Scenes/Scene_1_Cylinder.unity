@@ -454,7 +454,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b6cf603f67ced9a4f974af4a0f2ab488, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1236533038}
   m_SourcePrefab: {fileID: 100100000, guid: b6cf603f67ced9a4f974af4a0f2ab488, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -618,6 +621,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1236533037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b6cf603f67ced9a4f974af4a0f2ab488, type: 3}
+  m_PrefabInstance: {fileID: 562279482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1236533038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236533037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a644d625114346a562950b705adfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateMonoBehaviourScript
 --- !u!1001 &1272679385
 PrefabInstance:
   m_ObjectHideFlags: 0
